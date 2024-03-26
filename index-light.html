@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="INFO HTML5 Template">
+
+  <title>Home - Dentist</title>
+
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/x-icon" href="../assets/imgs/logo/favicon.png">
+
+
+  <!-- All CSS files -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../assets/css/progressbar.css">
+  <link rel="stylesheet" href="../assets/css/meanmenu.min.css">
+  <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="../assets/css/basictable.min.css">
+  <link rel="stylesheet" href="../assets/css/master-dentist.css">
+
+
+</head>
+
+
+
+<body class="font-heading-manrope light">
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="container" class="container-preloader">
+      <div class="animation-preloader">
+        <div class="spinner"></div>
+        <div class="txt-loading">
+          <span preloader-text="J" class="characters">J</span>
+          <span preloader-text="O" class="characters">O</span>
+          <span preloader-text="Y" class="characters">Y</span>
+          <span preloader-text="A" class="characters">A</span>
+        </div>
+      </div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+  </div>
+
+  <!-- Cursor Animation -->
+  <div class="cursor1"></div>
+
+
+  <!-- Sroll to top -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+
+
+  <!-- Switcher Area Start -->
+  <div class="switcher__area">
+    <div class="switcher__icon">
+      <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+      <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <div class="switcher__items">
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">mode</p>
+        </div>
+        <div class="switcher__btn mode-type wc-col-2">
+          <button class="active" data-mode="dark">dark</button>
+          <button data-mode="light">light</button>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Language Support</p>
+        </div>
+        <div class="switcher__btn lang_dir wc-col-2">
+          <button class="active" data-mode="ltr">LTR</button>
+          <button data-mode="rtl">RTL</button>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Layout</p>
+        </div>
+        <div class="switcher__btn layout-type wc-col-2">
+          <button class="active" data-mode="full-width">Full Width</button>
+          <button data-mode="box-layout">Box Layout</button>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Cursor</p>
+        </div>
+        <div class="switcher__btn">
+          <select name="cursor-style" id="cursor_style">
+            <option value="1">default</option>
+            <option selected value="2">animated</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Switcher Area End -->
+
+  <!-- Offcanves start -->
+  <div class="offcanvas__area">
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasOne">
+      <button class="offcanvas__close" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+      <div class="offcanvas__body">
+        <div class="offcanvas__logo">
+          <a href="index.html">
+            <img src="../assets/imgs/logo/site-logo-light.png" class="show-dark" alt="Offcanvas Logo">
+            <img src="../assets/imgs/logo/site-logo-dark.png" class="show-light" alt="Offcanvas Logo">
+          </a>
+          <p>Create live segments and target the right people for messages based on their behaviors.</p>
+        </div>
+
+        <div class="offcanvas__menu-area">
+          <div class="offcanvas__menu-wrapper"></div>
+        </div>
+        <div class="offcanvas__gallery">
+          <p class="offcanvas__title">gallery</p>
+          <div class="gallery__items">
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-2.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-3.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-4.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-5.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-6.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas__media">
+          <p class="offcanvas__title">Follow</p>
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Offcanves end -->
+
+
+  <div class="has-smooth" id="has_smooth"></div>
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <div class="body-wrapper body-dentist">
+        <!-- overlay switcher close  -->
+        <div class="overlay-switcher-close"></div>
+
+        <!-- Header area start -->
+        <header class="dentist-header pos-abs">
+          <div class="dentist-header__inner">
+            <div class="dentist-header__logo">
+              <a href="index.html">
+                <img src="../assets/imgs/dentist/logo-dark.png" alt="Site Logo">
+              </a>
+            </div>
+            <div class="dentist-header__nav">
+              <nav class="main-menu menu-dark">
+                <ul>
+                  <li><a href="index.html">home</a></li>
+                  <li><a href="about.html">about</a></li>
+                  <li class="menu-item-has-children">
+                    <a href="#">practice</a>
+                    <ul class="dp-menu">
+                      <li><a href="practice.html">practice dark</a></li>
+                      <li><a href="practice-light.html">practice light</a></li>
+                      <li><a href="practice-details.html">practice details dark</a></li>
+                      <li><a href="practice-details-light.html">practice details light</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Pages</a>
+                    <ul class="dp-menu">
+                      <li><a href="index.html">home dark</a></li>
+                      <li><a href="index-light.html">home light</a></li>
+                      <li><a href="about.html">about dark</a></li>
+                      <li><a href="about-light.html">about light</a></li>
+                      <li><a href="video-testimonial.html">video testimonial dark</a></li>
+                      <li><a href="video-testimonial-light.html">video testimonial light</a></li>
+                      <li><a href="faq.html">FAQ dark</a></li>
+                      <li><a href="faq-light.html">FAQ light</a></li>
+                      <li><a href="blog.html">blog dark</a></li>
+                      <li><a href="blog-light.html">blog light</a></li>
+                      <li><a href="blog-details.html">blog-details dark</a></li>
+                      <li><a href="blog-details-light.html">blog-details light</a></li>
+                      <li><a href="appointment.html">appointment dark</a></li>
+                      <li><a href="appointment-light.html">appointment light</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="appointment.html">appointment</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="dentist-header__others">
+              <ul class="dentist-header__meta content-dark">
+                <li class="call-us"><a href="tel:+(8)2572143921">
+                    <span><strong>Call Me </strong> +(8) 257 214 392</span>
+                    <i class="fa-solid fa-phone-volume"></i></a>
+                </li>
+              </ul>
+              <div class="dentist-header__navicon">
+                <button id="open_offcanvas" data-bs-toggle="offcanvas" data-bs-target="#offcanvasOne">
+                  <span class="menu-icon"><span></span></span> </button>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- Header area end -->
+
+
+        <main>
+
+          <!-- hero area start  -->
+          <section class="dentist-hero__area pt-150 pb-150">
+            <div class="dentist-hero__images">
+              <div class="cf_image has_fade_anim" data-delay="1">
+                <img class="dentist-hero__img-01" src="../assets/imgs/dentist/dentist-hero-img-01.jpg" alt="img">
+              </div>
+              <div class="cf_image">
+                <img class="dentist-hero__img-02" src="../assets/imgs/dentist/dentist-hero-img-02.jpg" alt="img"
+                  data-speed="0.8">
+              </div>
+              <div class="cf_image">
+                <img class="dentist-hero__img-03" src="../assets/imgs/dentist/teeth.png" alt="img">
+              </div>
+              <div class="cf_image">
+                <img class="dentist-hero__img-04" src="../assets/imgs/dentist/teeth-guard.png" alt="img">
+              </div>
+              <div class="cf_image">
+                <img class="dentist-hero__img-05" src="../assets/imgs/dentist/smile.png" alt="img">
+              </div>
+            </div>
+            <div class="container">
+              <div class="dentist-hero__content-wrapper">
+                <h1 class="dentist-hero__title has_char_anim">Your trusted <br>
+                  professional dentist</h1>
+                <div class="cf_text dentist-hero__text has-top-line has_text_move_anim" data-on-scroll="0"
+                  data-delay="0.7">
+                  <p>Enjoy dental care experience, that you feel comfortable with our first dental professionals and
+                    that you look awesome.</p>
+                </div>
+                <div class="cf_btn dentist-hero__btn has_fade_anim" data-on-scroll="0" data-delay="0.8">
+                  <a href="appointment.html" class="wc-btn-primary btn-hover-divide">APPOINTMENT</a>
+                </div>
+                <div class="dentist-hero__thumb-wrapper">
+                  <div class="dentist-hero__circle-btn">
+                    <div class="cf_btn_circle btn-wrapper">
+                      <a href="https://www.youtube.com/watch?v=ucJC2teNAsU" class="circle-text video-popup btn-item">
+                        <img class="text" src="../assets/imgs/dentist/watch-video-text-circle.png" alt="Video">
+                        <img class="icon" src="../assets/imgs/dentist/play.png" alt="Icon">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="dentist-hero__thumb has_fade_anim" data-ease="bounce" data-delay=".6" data-duration="2">
+                    <div class="bg"></div>
+                    <div class="cf_image">
+                      <img src="../assets/imgs/dentist/dentist-hero-thumb.png" alt="image">
+                    </div>
+                  </div>
+                </div>
+                <div class="dentist-hero__right-content">
+                  <div class="cf-text has_fade_anim" data-fade-from="left">
+                    <p>Achieved degrees
+                      from reputed dental
+                      college</p>
+                  </div>
+                  <div class="dentist-degrees has_fade_anim" data-fade-from="left" data-delay=".65">
+                    <img src="../assets/imgs/dentist/degree-01.png" alt="Degree Image">
+                    <img src="../assets/imgs/dentist/degree-02.png" alt="Degree Image">
+                    <img src="../assets/imgs/dentist/degree-03.png" alt="Degree Image">
+                    <img src="../assets/imgs/dentist/degree-04.png" alt="Degree Image">
+                  </div>
+                  <div class="cf_text dentist-degree-years has_fade_anim" data-fade-from="left" data-delay=".8">
+                    <p>2011-2019</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- hero area end  -->
+
+          <!-- service area start  -->
+          <section class="dentist-service__area pt-150 pb-150">
+            <div class="container">
+              <div class="dentist-service__content-wrapper">
+                <h2 class="dentist-service__sec-subtitle">Services</h2>
+                <div class="dentist-service__sec-title-wrapper">
+                  <h2 class="sec-title-9 has_text_reveal_anim">Amazing feel about your oral health</h2>
+                </div>
+                <div class="cf_btn_link dentist-service__btn has_fade_anim">
+                  <a href="practice.html" class="wc-btn-underline">View all service</a>
+                </div>
+              </div>
+              <div class="dentist-service__items-wrapper">
+                <div class="dentist-service__item space-left pb-150">
+                  <div class="dentist-service__thumb-wrapper">
+                    <div class="dentist-service__number has_fade_anim">01/04</div>
+                    <a href="practice-details.html">
+                      <div class="cf_image dentist-service__thumb img_anim_reveal">
+                        <img src="../assets/imgs/dentist/gallery/01.jpg" alt="Service Image" data-speed="0.9">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="dentist-service__content">
+                    <h3 class="dentist-service__title has_fade_anim"><a href="practice-details.html">Oral <br>
+                        Surgery</a></h3>
+                    <div class="cf_text dentist-service__text has_fade_anim">
+                      <p>Cosmetic care is the most effective way to protect against disease and infection.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="dentist-service__item content-first">
+                  <div class="dentist-service__thumb-wrapper">
+                    <div class="dentist-service__number has_fade_anim">01/04</div>
+                    <a href="practice-details.html">
+                      <div class="cf_image dentist-service__thumb img_anim_reveal">
+                        <img src="../assets/imgs/dentist/gallery/02.jpg" alt="Service Image" data-speed="0.9">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="dentist-service__content">
+                    <h3 class="dentist-service__title has_fade_anim"><a href="practice-details.html">Orthodontic <br>
+                        Braces</a></h3>
+                    <div class="cf_text dentist-service__text has_fade_anim">
+                      <p>Cosmetic care is the most effective way to protect against disease and infection.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="dentist-service__item number-right">
+                  <div class="dentist-service__thumb-wrapper">
+                    <div class="dentist-service__number has_fade_anim">01/04</div>
+                    <a href="practice-details.html">
+                      <div class="cf_image dentist-service__thumb img_anim_reveal">
+                        <img src="../assets/imgs/dentist/gallery/03.jpg" alt="Service Image" data-speed="0.9">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="dentist-service__content">
+                    <h3 class="dentist-service__title has_fade_anim"><a href="practice-details.html">Tooth <br>
+                        Whitening</a></h3>
+                    <div class="cf_text dentist-service__text has_fade_anim">
+                      <p>Cosmetic care is the most effective way to protect against disease and infection.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="dentist-service__item content-first number-right number-top space-right pt-150">
+                  <div class="dentist-service__thumb-wrapper">
+                    <div class="dentist-service__number has_fade_anim">01/04</div>
+                    <a href="practice-details.html">
+                      <div class="cf_image dentist-service__thumb img_anim_reveal">
+                        <img src="../assets/imgs/dentist/gallery/04.jpg" alt="Service Image" data-speed="0.9">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="dentist-service__content">
+                    <h3 class="dentist-service__title has_fade_anim"><a href="practice-details.html">Cosmetics <br>
+                        dentistry </a></h3>
+                    <div class="cf_text dentist-service__text has_fade_anim">
+                      <p>Cosmetic care is the most effective way to protect against disease and infection.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- service area end  -->
+
+          <!-- about area start  -->
+          <section class="dentist-about__area pt-150 pb-150">
+            <div class="container">
+              <div class="dentist-about__content">
+                <div class="dentist-about__sec-title-wrapper">
+                  <h2 class="sec-title-9 has_text_move_anim">The downtown dentist, where my patient’s comfort and
+                    well-being are my top priority!</h2>
+                </div>
+                <div class="row g-5">
+                  <div class="col-xl-8 col-lg-6 col-md-10">
+                    <div class="dentist-about__thumb">
+                      <div class="cf_image">
+                        <img class="dentist-about__curved-line" src="../assets/imgs/dentist/curved-line.png"
+                          alt="shape image">
+                      </div>
+                      <div class="dentist-about__service-list has_fade_anim">
+                        <ul>
+                          <li>About</li>
+                          <li>My Mission</li>
+                          <li>Why Choose</li>
+                        </ul>
+                      </div>
+                      <div class="cf_image img_anim_reveal">
+                        <img src="../assets/imgs/dentist/gallery/05.jpg" alt="image" data-speed="0.9">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-10">
+                    <div class="cf_text dentist-about__text has_fade_anim">
+                      <p>Everything happens for a reason to change so that you can learn to let go, things go wrong so
+                        that you appreciate them. When necessary we offer the best dental restorative materials and
+                        procedures. My technology allows you to see the results of your treatment, and us to see detail
+                        not
+                        available to the naked eye.</p>
+                    </div>
+                    <div class="cf_btn_link dentist-about__btn has_fade_anim">
+                      <a href="about.html" class="wc-btn-underline">Read more</a>
+                    </div>
+                    <div class="dentist-counter__box">
+                      <h4 class="dentist-counter__title has_fade_anim">A great <br>
+                        Milestone with</h4>
+                      <ul>
+                        <li>
+                          <div class="dentist-counter__item has_fade_anim">
+                            <h3 class="dentist-counter__number wc-counter">2k+</h3>
+                            <div class="cf_text dentist-counter__text">
+                              <p>Dental <br>
+                                surgery completed <br>
+                                successfully</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="dentist-counter__item has_fade_anim">
+                            <h3 class="dentist-counter__number wc-counter">400+</h3>
+                            <div class="cf_text dentist-counter__text">
+                              <p>Patients are <br>
+                                giving positive <br>
+                                feedback</p>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- about area end  -->
+
+          <!-- choose area start  -->
+          <section class="dentist-choose__area pt-150 pb-150">
+            <div class="container">
+              <div class="dentist-choose__area-inner">
+                <div class="dentist-choose__text-wrapper">
+                  <div class="dentist-choose__sec-title-wrapper">
+                    <h2 class="sec-title-9 has_text_move_anim">Why <br>
+                      take my dental <br>
+                      service</h2>
+                  </div>
+                  <div class="cf_text dentist-choose__text has_fade_anim">
+                    <p>Hybridge full arch is supported on dental implants and can replace missing or compromised teeth
+                      due to major disease. </p>
+                  </div>
+                  <div class="dentist-choose__list has_fade_anim">
+                    <ul>
+                      <li>Insurance accepted</li>
+                      <li>Full-service dentistry</li>
+                      <li>Safety first</li>
+                      <li>Oral and maxillofacial surgery</li>
+                    </ul>
+                  </div>
+                  <div class="cf_btn dentist-choose__btn has_fade_anim">
+                    <a href="appointment.html" class="wc-btn-primary btn-hover-divide">APPOINTMENT</a>
+                  </div>
+                </div>
+                <div class="dentist-choose__thumb-wrapper ">
+                  <div class="cf_image dentist-choose__thumb img_anim_reveal">
+                    <img src="../assets/imgs/dentist/gallery/06.jpg" alt="dentist img" data-speed="0.9">
+                  </div>
+                  <div class="cf_image dentist-choose__thumb img_anim_reveal">
+                    <img src="../assets/imgs/dentist/gallery/07.jpg" alt="dentist img" data-speed="0.8">
+                  </div>
+                  <div class="cf_image dentist-choose__thumb img_anim_reveal">
+                    <img src="../assets/imgs/dentist/gallery/08.jpg" alt="dentist img" data-speed="1.1">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- choose area end  -->
+
+          <!-- compare area start  -->
+          <section class="dentist-compare__area pt-150">
+            <div class="dentist-compare__area-bg"></div>
+            <div class="container">
+              <div class="dentist-compare__text-wrapper text-center">
+                <div class="dentist-compare__sec-title-wrapper">
+                  <h2 class="sec-title-9 has_text_reveal_anim">Great treatment always gives results</h2>
+                </div>
+                <div class="cf_text dentist-compare__text has_fade_anim">
+                  <p>We believe that everything happens for a reason to change so that you can learn to let go wrong so
+                    that you appreciate them. </p>
+                </div>
+              </div>
+              <div class="dentist-compare__img-wrapper">
+                <div class="cf_image">
+                  <img class="before-text" src="../assets/imgs/dentist/before-text.png" alt="img" data-speed=".85">
+                </div>
+                <div class="cf_image">
+                  <img class="after-text" src="../assets/imgs/dentist/after-text.png" alt="img" data-speed="0.85">
+                </div>
+                <div class="compare-box">
+                  <div class="beforeAfter has_fade_anim">
+                    <div class="cf_image">
+                      <img src="../assets/imgs/dentist/teeth-before.jpg" alt="before treatment image">
+                    </div>
+                    <div class="cf_image">
+                      <img src="../assets/imgs/dentist/teeth-after.jpg" alt="after treatment image">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- compare area end  -->
+
+          <!-- testimonial area start  -->
+          <section class="dentist-testimonial__area pt-150 pb-150">
+            <div class="container">
+              <div class="dentist-testimonial__area-inner">
+                <div class="cf_image dentist-testimonial__thumb img_anim_reveal">
+                  <img src="../assets/imgs/dentist/gallery/10.jpg" alt="img" data-speed="0.9">
+                </div>
+                <div class="dentist-testimonial__text-wrapper">
+                  <div class="dentist-testimonial__sec-title-wrapper">
+                    <h2 class="sec-title-9 has_text_reveal_anim">Client’s positive <br> feedback</h2>
+                  </div>
+                  <div class="dentist-testimonial__clients-rating has_fade_anim">
+                    <div class="ratings">
+                      <img src="../assets/imgs/dentist/star-dark.png" alt="image">
+                      <img src="../assets/imgs/dentist/star-dark.png" alt="image">
+                      <img src="../assets/imgs/dentist/star-dark.png" alt="image">
+                      <img src="../assets/imgs/dentist/star-dark.png" alt="image">
+                      <img src="../assets/imgs/dentist/star-half-dark.png" alt="image">
+                    </div>
+                    <div class="cf_text dentist-testimonial__rating-text">
+                      <p>(Average 4.9 rating point reviews from 587 clients)</p>
+                    </div>
+
+                  </div>
+                  <div class="dentist-testimonial__wrapper has_fade_anim">
+                    <div class="dentist-testimonial__quote-icon">
+                      <img src="../assets/imgs/dentist/quote.png" class="show-dark" alt="quote icon">
+                      <img src="../assets/imgs/dentist/quote-dark.png" class="show-light" alt="quote icon">
+                    </div>
+
+                    <div class="dentist-testimonial__slider-wrapper">
+                      <div class="swiper dentist-testimonial__slider">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="dentist-testimonial__item">
+                              <div class="dentist-testimonial__content">
+                                <div class="cf_text dentist-testimonial__text">
+                                  <p>Alex has a renewal with a new owner on board great dentist in New York has made a
+                                    few changes. But don’t worry, we’re still offering the same great care and we’re
+                                    even
+                                    improving things to make life easier for our patients.
+                                  </p>
+                                </div>
+                                <h3 class="dentist-testimonial__client-name">Bratt Joseph</h3>
+                                <h4 class="dentist-testimonial__client-role">Shopkeeper</h4>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="dentist-testimonial__item">
+                              <div class="dentist-testimonial__content">
+                                <div class="cf_text dentist-testimonial__text">
+                                  <p>Alex has a renewal with a new owner on board great dentist in New York has made a
+                                    few changes. But don’t worry, we’re still offering the same great care and we’re
+                                    even
+                                    improving things to make life easier for our patients.
+                                  </p>
+                                </div>
+                                <h3 class="dentist-testimonial__client-name">Bratt Joseph</h3>
+                                <h4 class="dentist-testimonial__client-role">Shopkeeper</h4>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="dentist-testimonial__item">
+                              <div class="dentist-testimonial__content">
+                                <div class="cf_text dentist-testimonial__text">
+                                  <p>Alex has a renewal with a new owner on board great dentist in New York has made a
+                                    few
+                                    changes. But don’t worry, we’re still offering the same great care and we’re even
+                                    improving
+                                    things to make life easier for our patients.
+                                  </p>
+                                </div>
+                                <h3 class="dentist-testimonial__client-name">Bratt Joseph</h3>
+                                <h4 class="dentist-testimonial__client-role">Shopkeeper</h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- testimonial area end  -->
+
+          <!-- video area start  -->
+          <div class="dentist-video__area">
+            <div class="cf_image dentist-video__thumb cf_parallax_image">
+              <img src="../assets/imgs/dentist/gallery/09.jpg" alt="dentist thumb" data-speed="0.9">
+            </div>
+            <div class="dentist-video__btn pos-center">
+              <div class="btn-wrapper cf_btn_circle">
+                <a href="https://www.youtube.com/watch?v=ucJC2teNAsU" class="circle-text btn-item video-popup">
+                  <img class="text" src="../assets/imgs/dentist/watch-video-text-circle-white.png" alt="Video">
+                  <img class="icon" src="../assets/imgs/dentist/play-white.png" alt="Icon">
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- video area end  -->
+
+          <!-- blog area start  -->
+          <section class="dentist-blog__area pt-140 pb-150">
+            <div class="dentist-container">
+              <div class="dentist-blog__sec-title-wrapper">
+                <h2 class="sec-title-9 has_text_reveal_anim">Journals for some <br>
+                  safety cause </h2>
+              </div>
+              <div class="dentist-blog__items-wrapper">
+                <article class="dentist-blog__item has_fade_anim anim_img_zoom" data-fade-from="left">
+                  <div class="dentist-blog__thumb">
+                    <a href="blog-details.html"><img src="../assets/imgs/dentist/gallery/11.jpg"
+                        alt="Blog Thumbnail"></a>
+                  </div>
+                  <div class="dentist-blog__content">
+                    <div class="content-top">
+                      <h4 class="dentist-blog__title"><a href="blog-details.html">A smart dentist can brilliantly work
+                          in every
+                          task</a>
+                      </h4>
+                      <div class="dentist-blog__meta-items">
+                        <ul>
+                          <li><a href="#" class="has-top-line">January 18, 2023</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="content-bottom">
+                      <a href="blog-details.html" class="wc-btn-primary btn-hover-divide">Read more</a>
+                    </div>
+                  </div>
+                </article>
+                <article class="dentist-blog__item has_fade_anim anim_img_zoom" data-fade-from="left" data-delay="0.7">
+                  <div class="dentist-blog__thumb">
+                    <a href="blog-details.html"><img src="../assets/imgs/dentist/gallery/12.jpg"
+                        alt="Blog Thumbnail"></a>
+                  </div>
+                  <div class="dentist-blog__content">
+                    <div class="content-top">
+                      <h4 class="dentist-blog__title"><a href="blog-details.html">Keep apert <br>
+                          from electricity when you work alone</a>
+                      </h4>
+                      <div class="dentist-blog__meta-items">
+                        <ul>
+                          <li><a href="#" class="has-top-line">January 18, 2023</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="content-bottom">
+                      <a href="blog-details.html" class="wc-btn-primary btn-hover-divide">Read more</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+          <!-- blog area end  -->
+
+        </main>
+
+
+        <!-- Footer section start -->
+        <footer>
+          <div class="dentist-footer__area pt-140 pb-150 mbm-1">
+            <div class="container">
+              <div class="dentist-footer__header">
+                <div class="dentist-footer__sec-title-wrapper">
+                  <h2 class="sec-title-9">Visit my <br>
+                    chamber</h2>
+                </div>
+                <ul class="dentist-social-media">
+                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+              <div class="dentist-footer__widgets-wrapper">
+                <div class="footer__widget">
+                  <h2 class="dentist-footer__widget-title">New York</h2>
+                  <div class="dentist-footer__menu">
+                    <ul>
+                      <li>Elk City, New York 3052</li>
+                      <li><a href="tel:+(8)320781312">+(8) 320 781 312</a></li>
+                      <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footer__widget">
+                  <h2 class="dentist-footer__widget-title">California</h2>
+                  <div class="dentist-footer__menu">
+                    <ul>
+                      <li>Alka Plaza, California 7128</li>
+                      <li><a href="tel:+(5)320781313">+(5) 320 781 313</a></li>
+                      <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footer__widget">
+                  <h2 class="dentist-footer__widget-title">London</h2>
+                  <div class="dentist-footer__menu">
+                    <ul>
+                      <li>650 Birmingham, London, UK</li>
+                      <li><a href="tel:+(5)320781313">+(5) 320 781 313</a></li>
+                      <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footer__widget">
+                  <h2 class="dentist-footer__widget-title">Work Hours</h2>
+                  <div class="dentist-footer__menu">
+                    <ul>
+                      <li>Monday - Friday:</li>
+                      <li>7:00 am – 23:00 pm</li>
+                      <li>Saturday: Closed</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dentist-copyright__area">
+            <div class="container">
+              <div class="cf_text dentist-copyright__text">
+                <p>© Alrights reserved by <a href="https://crowdyflow.com/">CrowdyFlow</a></p>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- Footer section end -->
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- All JS files -->
+  <script src="../assets/js/jquery-3.6.0.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="../assets/js/swiper-bundle.min.js"></script>
+  <script src="../assets/js/counter.js"></script>
+  <!-- <script src="../assets/js/typed.js"></script> -->
+  <!-- <script src="../assets/js/mixitup.min.js"></script> -->
+  <!-- <script src="../assets/js/progressbar.js"></script> -->
+  <script src="../assets/js/gsap.min.js"></script>
+  <script src="../assets/js/ScrollSmoother.min.js"></script>
+  <script src="../assets/js/ScrollToPlugin.min.js"></script>
+  <script src="../assets/js/ScrollTrigger.min.js"></script>
+  <script src="../assets/js/SplitText.min.js"></script>
+  <script src="../assets/js/TweenMax.min.js"></script>
+  <script src="../assets/js/jquery.meanmenu.min.js"></script>
+  <script src="../assets/js/beforeafter.jquery-1.0.0.min.js"></script>
+  <!-- <script src="../assets/js/basictable.min.js"></script> -->
+  <script src="../assets/js/backToTop.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/error-handling.js"></script>
+  <script src="../assets/js/offcanvas.js"></script>
+  <script src="../assets/js/wc-cursor.js"></script>
+
+
+</body>
+
+</html>
