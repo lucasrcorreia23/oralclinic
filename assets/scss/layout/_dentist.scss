@@ -601,7 +601,7 @@
                 width: 100%;
             }
         }
-
+        
         &__content {
             width: 300px;
             margin-inline-start: 80px;
@@ -870,6 +870,16 @@
                 grid-template-columns: auto;
             }
         }
+
+        
+        }
+        &-service{
+            
+                            &__content {
+margin:0!important;
+                    }
+        
+            }
 
         &__list {
             li {
@@ -1585,7 +1595,7 @@
             }
         }
     }
-}
+
 
 
 
