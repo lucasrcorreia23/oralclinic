@@ -412,6 +412,7 @@
             bottom: -5%;
             inset-inline-end: 21%;
             transform: rotate(31deg);
+            max-width: 100px;
 
             @media #{$md} {
                 display: none;

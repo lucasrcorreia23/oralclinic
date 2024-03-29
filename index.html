@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="INFO HTML5 Template">
+  <meta name="description" content="Clinica de implante dental e invisalign">
 
-  <title>Home - Dentist</title>
-
+  <title>Oral Clinic</title>
+  <script>$(function() { $.scrollIt(); });</script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  
   <!-- Fav Icon -->
   <link rel="icon" type="image/x-icon" href="../assets/imgs/logo/favicon.png">
 
@@ -28,7 +30,7 @@
 
 
 
-<body class="font-heading-manrope light">
+<body class="font-heading-manrope light" data-spy="scroll" data-target="#navbar" data-offset="20">
 
   <!-- Preloader -->
   <div id="preloader">
@@ -36,10 +38,16 @@
       <div class="animation-preloader">
         <div class="spinner"></div>
         <div class="txt-loading">
-          <span preloader-text="J" class="characters">J</span>
           <span preloader-text="O" class="characters">O</span>
-          <span preloader-text="Y" class="characters">Y</span>
+          <span preloader-text="R" class="characters">R</span>
           <span preloader-text="A" class="characters">A</span>
+          <span preloader-text="L" class="characters">L</span>
+          <span preloader-text="C" class="characters">C</span>
+          <span preloader-text="L" class="characters">L</span>
+          <span preloader-text="I" class="characters">I</span>
+          <span preloader-text="N" class="characters">N</span>
+          <span preloader-text="I" class="characters">I</span>
+          <span preloader-text="C" class="characters">C</span>          
         </div>
       </div>
       <div class="loader-section section-left"></div>
@@ -67,47 +75,19 @@
       <button class="offcanvas__close" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
       <div class="offcanvas__body">
         <div class="offcanvas__logo">
-          <a href="index.html">
+          <a href="#">
             <img src="../assets/imgs/logo/oralclinic.png" class="show-dark" alt="Offcanvas Logo">
             <img src="../assets/imgs/logo/oralclinic.png" class="show-light" alt="Offcanvas Logo">
           </a>
-          <p>Create live segments and target the right people for messages based on their behaviors.</p>
+          <p>Onde o seu sorriso é a nossa maior motivação.</p>
         </div>
 
         <div class="offcanvas__menu-area">
           <div class="offcanvas__menu-wrapper"></div>
         </div>
-        <div class="offcanvas__gallery">
-          <p class="offcanvas__title">gallery</p>
-          <div class="gallery__items">
-            <div class="gallery__item">
-              <a href="#"><img src="../assets/imgs/thumb/gallery.jpg" alt="gallery Image">
-                <span><i class="fa-brands fa-instagram"></i></span></a>
-            </div>
-            <div class="gallery__item">
-              <a href="#"><img src="../assets/imgs/thumb/gallery-2.jpg" alt="gallery Image">
-                <span><i class="fa-brands fa-instagram"></i></span></a>
-            </div>
-            <div class="gallery__item">
-              <a href="#"><img src="../assets/imgs/thumb/gallery-3.jpg" alt="gallery Image">
-                <span><i class="fa-brands fa-instagram"></i></span></a>
-            </div>
-            <div class="gallery__item">
-              <a href="#"><img src="../assets/imgs/thumb/gallery-4.jpg" alt="gallery Image">
-                <span><i class="fa-brands fa-instagram"></i></span></a>
-            </div>
-            <div class="gallery__item">
-              <a href="#"><img src="../assets/imgs/thumb/gallery-5.jpg" alt="gallery Image">
-                <span><i class="fa-brands fa-instagram"></i></span></a>
-            </div>
-            <div class="gallery__item">
-              <a href="#"><img src="../assets/imgs/thumb/gallery-6.jpg" alt="gallery Image">
-                <span><i class="fa-brands fa-instagram"></i></span></a>
-            </div>
-          </div>
-        </div>
+       
         <div class="offcanvas__media">
-          <p class="offcanvas__title">Follow</p>
+          <p class="offcanvas__title">Segue a gente!</p>
           <ul>
             <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
             <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
@@ -133,18 +113,18 @@
         <header class="dentist-header pos-abs">
           <div class="dentist-header__inner">
             <div class="dentist-header__logo">
-              <a href="index.html">
+              <a href="#">
                 <img src="../assets/imgs/logo/oralclinic.png" alt="Site Logo">
               </a>
             </div>
             <div class="dentist-header__nav">
               <nav class="main-menu menu-dark">
                 <ul>
-                  <li><a href="index.html">TRATAMENTOS</a></li>
-                  <li><a href="about.html">SOBRE A CLÍNICA</a></li>
-                  <li><a href="about.html">FEEDBACKS</a></li>
-                  <li><a href="about.html">AGENDAMENTOS</a></li>
-                  <li><a href="about.html">CONTATO</a></li>
+                  <li><a href="#" data-scroll-nav="1">TRATAMENTOS</a></li>
+                  <li><a href="#" data-scroll-nav="2">SOBRE A CLÍNICA</a></li>
+                  <li><a href="#" data-scroll-nav="3">FEEDBACKS</a></li>
+                  <li><a href="#" data-scroll-nav="4">AGENDAMENTOS</a></li>
+                  <li><a href="#" data-scroll-nav="5">CONTATO</a></li>
                  
                 </ul>
               </nav>
@@ -173,7 +153,7 @@
             <div class="dentist-hero__images">
               
               <div class="cf_image">
-                <img class="dentist-hero__img-02" src="../assets/imgs/dentist/dentist-hero-img-02.jpg" alt="img"
+                <img class="dentist-hero__img-02" src="../assets/imgs/dentist/images.jpeg" alt="img"
                   data-speed="0.8">
               </div>
               <div class="cf_image">
@@ -197,7 +177,7 @@
                   <p>Saiba mais sobre a tecnologia Invisalign e nossos implantes rápidos para recuperar seu sorriso em até 12h.</p>
                 </div>
                 <div class="cf_btn dentist-hero__btn has_fade_anim" data-on-scroll="0" data-delay="0.8">
-                  <a href="appointment.html" class="wc-btn-primary btn-hover-divide">AGENDE SUA CONSULTA</a>
+                  <a href="#agendamento" data-scroll-nav="5" class="wc-btn-primary btn-hover-divide">AGENDE SUA CONSULTA</a>
                 </div>
                 <div class="dentist-hero__thumb-wrapper">
                   <div class="dentist-hero__circle-btn">
@@ -211,7 +191,7 @@
                   <div class="dentist-hero__thumb has_fade_anim" data-ease="bounce" data-delay=".6" data-duration="2">
                     <div class="bg"></div>
                     <div class="cf_image">
-                      <img src="../assets/imgs/dentist/thumb.jpeg" alt="image">
+                      <img src="../assets/imgs/dentist/owner.png" alt="image">
                     </div>
                   </div>
                 </div>
@@ -222,9 +202,7 @@
                       de experiência e selo Advantage Gold Insivalign</p>
                   </div>
                   
-                  <div class="cf_text dentist-degree-years has_fade_anim" data-fade-from="left" data-delay=".8">
-                    <p><br>Cliente desde 2020</p>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -232,15 +210,15 @@
           <!-- hero area end  -->
 
           <!-- service area start  -->
-          <section class="dentist-service__area pt-150 pb-150">
-            <div class="container">
+          <section class="dentist-service__area pt-150 pb-150" id="tratamentos" >
+            <div data-scroll-index="1" class="container">
               <div class="dentist-service__content-wrapper">
-                <h2 class="dentist-service__sec-subtitle">Services</h2>
+                <h2 class="dentist-service__sec-subtitle">Serviços</h2>
                 <div class="dentist-service__sec-title-wrapper">
                   <h2 class="sec-title-9 has_text_reveal_anim">Sua jornada para um sorriso perfeito começa aqui.</h2>
                 </div>
                 <div class="cf_btn_link dentist-service__btn has_fade_anim">
-                  <a href="practice.html" class="wc-btn-underline">View all service</a>
+                  <a href="#" data-scroll-nav="4" class="wc-btn-underline">Ver todos</a>
                 </div>
               </div>
               <div class="dentist-service__items-wrapper">
@@ -249,13 +227,14 @@
                     <div class="dentist-service__number has_fade_anim">01/04</div>
                     <a href="practice-details.html">
                       <div class="cf_image dentist-service__thumb img_anim_reveal">
-                        <img src="../assets/imgs/dentist/gallery/01.jpg" alt="Service Image" data-speed="0.9">
+                        <img src="../assets/imgs/dentist/lady.jpeg" alt="Service Image" data-speed="0.9">
                       </div>
                     </a>
                   </div>
                   <div class="dentist-service__content">
-                    <h3 class="dentist-service__title has_fade_anim"><a href="practice-details.html">Oral <br>
-                        Surgery</a></h3>
+                    <div class="cf_image dentist-service__thumb img_anim_reveal">
+                      <img src="../assets/imgs/dentist/Invisa-logo.png" alt="Service Image" data-speed="0.9">
+                    </div>
                     <div class="cf_text dentist-service__text has_fade_anim">
                       <p>Transforme seu sorriso sem esforço! Sorria com confiança, sem braquetes metálicos. Descubra o poder de um sorriso alinhado com Invisalign.</p>
                     </div>
@@ -266,7 +245,7 @@
                     <div class="dentist-service__number has_fade_anim">01/04</div>
                     <a href="practice-details.html">
                       <div class="cf_image dentist-service__thumb img_anim_reveal">
-                        <img src="../assets/imgs/dentist/gallery/02.jpg" alt="Service Image" data-speed="0.9">
+                        <img src="../assets/imgs/dentist/dente.png" alt="Service Image" data-speed="0.9">
                       </div>
                     </a>
                   </div>
@@ -278,40 +257,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="dentist-service__item number-right">
-                  <div class="dentist-service__thumb-wrapper">
-                    <div class="dentist-service__number has_fade_anim">01/04</div>
-                    <a href="practice-details.html">
-                      <div class="cf_image dentist-service__thumb img_anim_reveal">
-                        <img src="../assets/imgs/dentist/gallery/03.jpg" alt="Service Image" data-speed="0.9">
-                      </div>
-                    </a>
-                  </div>
-                  <div class="dentist-service__content">
-                    <h3 class="dentist-service__title has_fade_anim"><a href="practice-details.html">Tooth <br>
-                        Whitening</a></h3>
-                    <div class="cf_text dentist-service__text has_fade_anim">
-                      <p>Cosmetic care is the most effective way to protect against disease and infection.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="dentist-service__item content-first number-right number-top space-right pt-150">
-                  <div class="dentist-service__thumb-wrapper">
-                    <div class="dentist-service__number has_fade_anim">01/04</div>
-                    <a href="practice-details.html">
-                      <div class="cf_image dentist-service__thumb img_anim_reveal">
-                        <img src="../assets/imgs/dentist/gallery/04.jpg" alt="Service Image" data-speed="0.9">
-                      </div>
-                    </a>
-                  </div>
-                  <div class="dentist-service__content">
-                    <h3 class="dentist-service__title has_fade_anim"><a href="practice-details.html">Cosmetics <br>
-                        dentistry </a></h3>
-                    <div class="cf_text dentist-service__text has_fade_anim">
-                      <p>Cosmetic care is the most effective way to protect against disease and infection.</p>
-                    </div>
-                  </div>
-                </div>
+                
+                
               </div>
             </div>
           </section>
@@ -325,7 +272,7 @@
               <div class="dentist-choose__area-inner">
                 <div class="dentist-choose__text-wrapper">
                   <div class="dentist-choose__sec-title-wrapper">
-                    <h2 class="sec-title-9 has_text_move_anim">SEU SORRISO PERFEITO COM</h2>
+                    <h2 class="sec-title-9 has_text_move_anim">SEU SORRISO PERFEITO COM INVISALIGN</h2>
                   </div>
                   <div class="cf_text dentist-choose__text has_fade_anim">
                     <p>Hybridge full arch is supported on dental implants and can replace missing or compromised teeth
@@ -343,25 +290,33 @@
                       <p>Com base nos dados coletados, nosso software especializado cria um plano de tratamento virtual, permitindo visualizar seu novo sorriso antes mesmo de começar.</p>
                     </div>
                   </div>
-                  <div class="dentist-service__content">
-                    <h3 class="dentist-service__title has_fade_anim"><a href="practice-details.html">Alinhadores exclusivos</a></h3>
-                    <div class="cf_text dentist-service__text has_fade_anim">
-                      <p>Os alinhadores são personalizados para você. Cada um é projetado para ser usado por duas semanas, movendo gradualmente seus dentes para a posição desejada.</p>
-                    </div>
-                  </div>
-                  <div class="cf_btn dentist-choose__btn has_fade_anim">
-                    <a href="appointment.html" class="wc-btn-primary btn-hover-divide">APPOINTMENT</a>
-                  </div>
+                  
+                  
                 </div>
                 <div class="dentist-choose__thumb-wrapper ">
                   <div class="cf_image dentist-choose__thumb img_anim_reveal">
-                    <img src="../assets/imgs/dentist/gallery/06.jpg" alt="dentist img" data-speed="0.9">
+                    <img src="../assets/imgs/dentist/clinica.png" alt="dentist img" data-speed="0.9">
                   </div>
                   <div class="cf_image dentist-choose__thumb img_anim_reveal">
-                    <img src="../assets/imgs/dentist/gallery/07.jpg" alt="dentist img" data-speed="0.8">
+                    <img src="../assets/imgs/dentist/dente 2.png" alt="dentist img" data-speed="0.8">
                   </div>
                   <div class="cf_image dentist-choose__thumb img_anim_reveal">
-                    <img src="../assets/imgs/dentist/gallery/08.jpg" alt="dentist img" data-speed="1.1">
+                    <img src="../assets/imgs/dentist/dente 3.png" alt="dentist img" data-speed="1.1">
+                  </div>
+                </div>
+                
+              </div>
+              <div style="display:flex">
+                <div class="dentist-service__content">
+                  <h3 class="dentist-service__title has_fade_anim"><a href="practice-details.html">Alinhadores exclusivos</a></h3>
+                  <div class="cf_text dentist-service__text has_fade_anim">
+                    <p>Os alinhadores são personalizados para você. Cada um é projetado para ser usado por duas semanas, movendo gradualmente seus dentes para a posição desejada.</p>
+                  </div>
+                </div>
+                <div class="dentist-service__content">
+                  <h3 class="dentist-service__title has_fade_anim"><a href="practice-details.html">Conveniência e Liberdade</a></h3>
+                  <div class="cf_text dentist-service__text has_fade_anim">
+                    <p>Os alinhadores são removíveis, proporcionando a liberdade de comer, escovar e passar fio dental sem restrições.</p>
                   </div>
                 </div>
               </div>
@@ -373,14 +328,19 @@
           <section class="dentist-compare__area pt-150">
             <div class="dentist-compare__area-bg"></div>
             <div class="container">
+              
               <div class="dentist-compare__text-wrapper text-center">
-                <div class="dentist-compare__sec-title-wrapper">
-                  <h2 class="sec-title-9 has_text_reveal_anim">Great treatment always gives results</h2>
+                <div class="cf_image">
+                  <img class="dentist-hero__img-02" src="../assets/imgs/dentist/selo-oral.png" alt="img"
+                    data-speed="0.5">
                 </div>
                 <div class="cf_text dentist-compare__text has_fade_anim">
-                  <p>We believe that everything happens for a reason to change so that you can learn to let go wrong so
-                    that you appreciate them. </p>
+                  <p>Transforme o seu sorriso... </p>
                 </div>
+                <div class="dentist-compare__sec-title-wrapper">
+                  <h2 class="sec-title-9 has_text_reveal_anim">HOJE!</h2>
+                </div>
+                
               </div>
               <div class="dentist-compare__img-wrapper">
                 <div class="cf_image">
@@ -392,10 +352,10 @@
                 <div class="compare-box">
                   <div class="beforeAfter has_fade_anim">
                     <div class="cf_image">
-                      <img src="../assets/imgs/dentist/teeth-before.jpg" alt="before treatment image">
+                      <img src="../assets/imgs/dentist/reflexo-2.png" alt="before treatment image">
                     </div>
                     <div class="cf_image">
-                      <img src="../assets/imgs/dentist/teeth-after.jpg" alt="after treatment image">
+                      <img src="../assets/imgs/dentist/reflexo-1.png" alt="after treatment image">
                     </div>
                   </div>
                 </div>
@@ -405,15 +365,16 @@
           <!-- compare area end  -->
 
           <!-- testimonial area start  -->
-          <section class="dentist-testimonial__area pt-150 pb-150">
-            <div class="container">
-              <div class="dentist-testimonial__area-inner">
+          <section  data-scroll-index="3" class="dentist-testimonial__area pt-150 pb-150">
+            <div  class="container">
+              <div id="feedbacks"  class="dentist-testimonial__area-inner">
                 <div class="cf_image dentist-testimonial__thumb img_anim_reveal">
-                  <img src="../assets/imgs/dentist/gallery/10.jpg" alt="img" data-speed="0.9">
+                  <img src="../assets/imgs/dentist/client-1.jpeg" alt="img" data-speed="0.4">
                 </div>
                 <div class="dentist-testimonial__text-wrapper">
                   <div class="dentist-testimonial__sec-title-wrapper">
-                    <h2 class="sec-title-9 has_text_reveal_anim">Client’s positive <br> feedback</h2>
+                    <h3 class="sec-title-9 has_text_reveal_anim">O que nossos clientes estão dizendo sobre os</h3>
+                    <h2 class="sec-title-9 has_text_reveal_anim"><b>RESULTADOS INCRÍVEIS?</b></h2>
                   </div>
                   <div class="dentist-testimonial__clients-rating has_fade_anim">
                     <div class="ratings">
@@ -424,7 +385,7 @@
                       <img src="../assets/imgs/dentist/star-half-dark.png" alt="image">
                     </div>
                     <div class="cf_text dentist-testimonial__rating-text">
-                      <p>(Average 4.9 rating point reviews from 587 clients)</p>
+                      <p>(Média de 4.5 estrelas no Google)</p>
                     </div>
 
                   </div>
@@ -441,14 +402,13 @@
                             <div class="dentist-testimonial__item">
                               <div class="dentist-testimonial__content">
                                 <div class="cf_text dentist-testimonial__text">
-                                  <p>Alex has a renewal with a new owner on board great dentist in New York has made a
-                                    few changes. But don’t worry, we’re still offering the same great care and we’re
-                                    even
-                                    improving things to make life easier for our patients.
+                                  <p>O Dr. que fez a minha restauração arrasou! Somentes com a restauração já estou sentindo uma diferença enorme no sorriso. <br><br>
+
+                                    Fora que o atendimento é sempre excelente. Parabéns a toda a equipe e muito obrigada!
                                   </p>
                                 </div>
-                                <h3 class="dentist-testimonial__client-name">Bratt Joseph</h3>
-                                <h4 class="dentist-testimonial__client-role">Shopkeeper</h4>
+                                <h3 class="dentist-testimonial__client-name">Jordana Mendes</h3>
+                                <h4 class="dentist-testimonial__client-role">Jornalista</h4>
                               </div>
                             </div>
                           </div>
@@ -494,89 +454,164 @@
           </section>
           <!-- testimonial area end  -->
 
-          <!-- video area start  -->
-          <div class="dentist-video__area">
-            <div class="cf_image dentist-video__thumb cf_parallax_image">
-              <img src="../assets/imgs/dentist/gallery/09.jpg" alt="dentist thumb" data-speed="0.9">
-            </div>
-            <div class="dentist-video__btn pos-center">
-              <div class="btn-wrapper cf_btn_circle">
-                <a href="https://www.youtube.com/watch?v=ucJC2teNAsU" class="circle-text btn-item video-popup">
-                  <img class="text" src="../assets/imgs/dentist/watch-video-text-circle-white.png" alt="Video">
-                  <img class="icon" src="../assets/imgs/dentist/play-white.png" alt="Icon">
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- video area end  -->
-
-          <!-- blog area start  -->
-          <section class="dentist-blog__area pt-140 pb-150">
-            <div class="dentist-container">
-              <div class="dentist-blog__sec-title-wrapper">
-                <h2 class="sec-title-9 has_text_reveal_anim">Journals for some <br>
-                  safety cause </h2>
-              </div>
-              <div class="dentist-blog__items-wrapper">
-                <article class="dentist-blog__item has_fade_anim anim_img_zoom" data-fade-from="left">
-                  <div class="dentist-blog__thumb">
-                    <a href="blog-details.html"><img src="../assets/imgs/dentist/gallery/11.jpg"
-                        alt="Blog Thumbnail"></a>
+          <!-- Vision area start  -->
+          <section class="dentist-choose__area dt-inab__vision-area pt-150 pb-150" data-scroll-index="4">
+            <div class="container">
+              <div class="dentist-choose__area-inner">
+                <div class="cf_image dentist-choose__thumb img_anim_reveal">
+                  <img src="../assets/imgs/dentist/atendimento.jpeg" alt="dentist img" data-speed="0.9">
+                </div>
+                <div class="dentist-choose__text-wrapper">
+                  <div class="dentist-choose__sec-title-wrapper">
+                    <h4 class="has-left-line has_text_reveal_anim">CLAREAMENTO</h4>
+                    <h1 class="sec-title-9 mb-10 mt-30 has_text_reveal_anim">Agende sua consulta agora e ganhe um tratamento de clareamento dental grátis!</h1>
                   </div>
-                  <div class="dentist-blog__content">
-                    <div class="content-top">
-                      <h4 class="dentist-blog__title"><a href="blog-details.html">A smart dentist can brilliantly work
-                          in every
-                          task</a>
-                      </h4>
-                      <div class="dentist-blog__meta-items">
-                        <ul>
-                          <li><a href="#" class="has-top-line">January 18, 2023</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="content-bottom">
-                      <a href="blog-details.html" class="wc-btn-primary btn-hover-divide">Read more</a>
-                    </div>
+                  <div class="cf_text dentist-choose__text has_fade_anim">
+                    <p>Oferta exclusiva para quem responder o formulário deste site e disponível por tempo limitado. <br><br>Além disso, confira nossos todos os nossos outros serviços e sinta-se a vontade para solicitar para entrar em contato e solicitar!</p>
                   </div>
-                </article>
-                <article class="dentist-blog__item has_fade_anim anim_img_zoom" data-fade-from="left" data-delay="0.7">
-                  <div class="dentist-blog__thumb">
-                    <a href="blog-details.html"><img src="../assets/imgs/dentist/gallery/12.jpg"
-                        alt="Blog Thumbnail"></a>
+                  <div class="dentist-choose__list has_fade_anim">
+                    <ul>
+                      <li>Odontologia estética</li>
+                      <li>Endodontia</li>
+                      <li>Periodontia</li>
+                      <li>Pediatria</li>
+                      <li>Limpeza dentária</li>
+                      <li>Harmonização Orofacial</li>
+                      <li>Clareamento dental</li>
+                    </ul>
                   </div>
-                  <div class="dentist-blog__content">
-                    <div class="content-top">
-                      <h4 class="dentist-blog__title"><a href="blog-details.html">Keep apert <br>
-                          from electricity when you work alone</a>
-                      </h4>
-                      <div class="dentist-blog__meta-items">
-                        <ul>
-                          <li><a href="#" class="has-top-line">January 18, 2023</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="content-bottom">
-                      <a href="blog-details.html" class="wc-btn-primary btn-hover-divide">Read more</a>
-                    </div>
+                  <div class="cf_btn dentist-choose__btn has_fade_anim">
+                    <a href="#" data-scroll-nav="5" class="wc-btn-primary btn-hover-divide">CLAREAMENTO GRÁTIS</a>
                   </div>
-                </article>
+                </div>
               </div>
             </div>
           </section>
-          <!-- blog area end  -->
+          <!-- Vision area end  -->
+          <section class="dentist-about__area pt-150 pb-150">
+            <div class="container">
+              <div class="dentist-about__content">
+                <div class="dentist-about__sec-title-wrapper">
+                  <h2 class="sec-title-9 has_text_move_anim">NOSSO COMPROMETIMENTO É COM A EXCELÊNCIA!</h2>
+                </div>
+                <div class="row g-5">
+                  <div class="col-xl-8 col-lg-6 col-md-10">
+                    <div class="dentist-about__thumb">
+                      <div class="cf_image img_anim_reveal">
+                        <img src="../assets/imgs/dentist/maquina.png" alt="image" data-speed="0.9">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-10">
+                    <div class="cf_text dentist-about__text has_fade_anim">
+                      <p>Com o scanner iTero e os equipamentos da renomada FGM Dental Group, garantimos não apenas tratamentos de qualidade, mas uma experiência odontológica incomparável. Confie na nossa expertise e tecnologia de ponta para o sorriso que você merece.</p>
+                    </div>
+                    <div class="cf_btn_link dentist-about__btn has_fade_anim">
+                      <a href="#" class="wc-btn-underline">Saiba mais</a>
+                    </div>
+                    <div class="dentist-counter__box">
+                      <h4 class="dentist-counter__title has_fade_anim">Os números <br>
+                        dizem</h4>
+                      <ul>
+                        <li>
+                          <div class="dentist-counter__item has_fade_anim">
+                            <h3 class="dentist-counter__number wc-counter">+500</h3>
+                            <div class="cf_text dentist-counter__text">
+                              <p>Pessoas  <br>
+                                mais felizes com <br>
+                                implantes</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="dentist-counter__item has_fade_anim">
+                            <h3 class="dentist-counter__number wc-counter">+1000</h3>
+                            <div class="cf_text dentist-counter__text">
+                              <p>Sorriso <br>transformados 
+                               </p>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- about area end  -->
+          <!-- about hero start  -->
+          <section id="sobre" data-scroll-index="2" class="dt-inab__hero pt-250 pb-150">
+            <div class="container">
+              <div class="dt-inab__hero-wrapper">
+                <div class="dt-inab__hero-left">
+                  <div class="dt-inab__hero-thumb">
+                    <div class="cf_image img_anim_reveal">
+                      <img src="../assets/imgs/dentist/owner-2.png" alt="about hero image">
+                    </div>
+                  </div>
+                </div>
+                <div class="dt-inab__hero-right">
+                  <div class="dt-inab__hero-content">
+                    <h1 class="has-left-line has_char_anim">A empresa</h1>
+                    <h2 class="dt-inab__hero-title mb-10 has_text_reveal_anim">Sobre a <br> Oral Clinic</h2>
+                    
+                    <div class="cf_text mt-45 has_fade_anim" data-delay=".8">
+                      <p>Bem-vindo à Oral Clinic, onde o seu sorriso é a nossa maior motivação. Nosso compromisso com a excelência e qualidade reflete-se em cada serviço que oferecemos. Com uma abordagem centrada no paciente e o uso de alta tecnologia, a Oral Clinic é o seu destino confiável para cuidados odontológicos completos. Especializados em estética, lentes de contato dentárias, ortodontia e implantes, nossa equipe de experts em cada área trabalha incansavelmente para proporcionar resultados excepcionais.
+                        .</p>
+                    </div>
+                    <div class="cf_text mt-30 has_fade_anim" data-delay=".95">
+                      <p>Fundada por Jéssica Cipriani, uma dentista com 12 anos de experiência, a Oral Clinic orgulha-se de oferecer um atendimento personalizado e de alta qualidade para atender às suas necessidades individuais. Agende uma consulta conosco e descubra como podemos transformar o seu sorriso hoje mesmo.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          
+          <!-- appointment form  -->
+          <section id="agendamento" data-scroll-index="5" class="dt-inap__appointment doctor__appointment pt-250 pb-150">
+            <div class="container">
+              <div class="doctor__appointment-wrapper">
+                <div class="doctor__appointment-item">
+                  <div class="doctor__appointment-titlewrapper mb-70">
+                    <h1 class="doctor__appointment-title has_text_reveal_anim">Chegou a hora de <br>transformar o seu sorriso</h1>
+                    <div class="cf_text mt-30 has_fade_anim" data-delay=".95">
+                      <p>Entre em contato agora e se permite um sorriso transformador!</p>
+                    </div>
+                  </div>
+                  <div class="doctor__appointment-form has_fade_anim">
+                    
+                      <div class="doctor__appointment-formbtn">
+                        <button type="submit" class="wc-btn-primary btn-hover-divide submit">
+                          <a href="#">
+                          <i class="fa-solid fa-phone-volume"></i>  Entrar em contato</button>
+                        </a>
+                      </div>
+                    
+                  </div>
+                </div>
+                <div class="doctor__appointment-thumbs dentist__appointment-thumbs">
+                  <div class="cf_image img_anim_reveal">
+                    <img src="../assets/imgs/dentist/card-2.webp" alt="thumb">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /appointment form  -->
 
         </main>
 
 
         <!-- Footer section start -->
-        <footer>
+        <footer id="contato" >
           <div class="dentist-footer__area pt-140 pb-150 mbm-1">
             <div class="container">
               <div class="dentist-footer__header">
                 <div class="dentist-footer__sec-title-wrapper">
-                  <h2 class="sec-title-9">Visit my <br>
-                    chamber</h2>
+                  <img src="../assets/imgs/logo/oralclinic.png" alt="Site Logo">
                 </div>
                 <ul class="dentist-social-media">
                   <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -586,43 +621,24 @@
                 </ul>
               </div>
               <div class="dentist-footer__widgets-wrapper">
+                
                 <div class="footer__widget">
-                  <h2 class="dentist-footer__widget-title">New York</h2>
-                  <div class="dentist-footer__menu">
-                    <ul>
-                      <li>Elk City, New York 3052</li>
-                      <li><a href="tel:+(8)320781312">+(8) 320 781 312</a></li>
-                      <li><a href="mailto:info@example.com">info@example.com</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="footer__widget">
-                  <h2 class="dentist-footer__widget-title">California</h2>
-                  <div class="dentist-footer__menu">
-                    <ul>
-                      <li>Alka Plaza, California 7128</li>
-                      <li><a href="tel:+(5)320781313">+(5) 320 781 313</a></li>
-                      <li><a href="mailto:info@example.com">info@example.com</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="footer__widget">
-                  <h2 class="dentist-footer__widget-title">London</h2>
+                  <h2 class="dentist-footer__widget-title">Palhoça</h2>
                   <div class="dentist-footer__menu">
                     <ul>
                       <li>650 Birmingham, London, UK</li>
-                      <li><a href="tel:+(5)320781313">+(5) 320 781 313</a></li>
+                      <li><a href="tel:+(5)320781313">(48) 9 9999-9999</a></li>
                       <li><a href="mailto:info@example.com">info@example.com</a></li>
                     </ul>
                   </div>
                 </div>
                 <div class="footer__widget">
-                  <h2 class="dentist-footer__widget-title">Work Hours</h2>
+                  <h2 class="dentist-footer__widget-title">Disponibilidade</h2>
                   <div class="dentist-footer__menu">
                     <ul>
-                      <li>Monday - Friday:</li>
-                      <li>7:00 am – 23:00 pm</li>
-                      <li>Saturday: Closed</li>
+                      <li>Segunda-feira - Sábado:</li>
+                      <li>8:00 am – 18:00</li>
+                      <li>Domingo: Fechado</li>
                     </ul>
                   </div>
                 </div>
@@ -632,7 +648,7 @@
           <div class="dentist-copyright__area">
             <div class="container">
               <div class="cf_text dentist-copyright__text">
-                <p>© Alrights reserved by <a href="https://crowdyflow.com/">CrowdyFlow</a></p>
+                <p>© OralClinic 2024. Todos os direitos reservados. Desenvolvido por <a target="_blank" href="https://estudionakama.com.br/">Estúdio Nákama</a>.</p>
               </div>
             </div>
           </div>
@@ -646,11 +662,13 @@
 
 
   <!-- All JS files -->
-  <script src="../assets/js/jquery-3.6.0.min.js"></script>
+  <script src="/assets/js/jquery-3.6.0.min.js"></script>
   <script src="../assets/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/js/jquery.magnific-popup.min.js"></script>
   <script src="../assets/js/swiper-bundle.min.js"></script>
   <script src="../assets/js/counter.js"></script>
+   <!-- scrollIt -->
+   <script src="/assets/js/scrollIt.min.js"></script>
   <!-- <script src="../assets/js/typed.js"></script> -->
   <!-- <script src="../assets/js/mixitup.min.js"></script> -->
   <!-- <script src="../assets/js/progressbar.js"></script> -->
