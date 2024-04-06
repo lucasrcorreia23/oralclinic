@@ -22901,7 +22901,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 .dentist-header__navicon button {
   width: 60px;
   height: 60px;
-  background: #ffeded;
+  background: #fbfbfb;
   border-radius: 0;
   display: inline-flex;
   align-items: center;
@@ -23012,7 +23012,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   font-size: 14px;
   font-weight: 600;
   color: #202c58;
-  background: #ffeded;
+  background: #fbfbfb;
 }
 .dentist-hero__right-content {
   width: 330px;
@@ -23104,7 +23104,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   position: absolute;
   width: 100%;
   height: 95%;
-  background: #ffeded;
+  background: #fbfbfb;
   bottom: 0;
   inset-inline-start: 0;
   border-radius: 262px;
@@ -23463,7 +23463,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   }
 }
 .dentist-about__area {
-  background: #ffeded;
+  background: #fbfbfb;
 }
 .dentist-about__sec-title-wrapper {
   max-width: 1070px;
@@ -23949,7 +23949,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   background-color: #aedbe9;
 }
 .dentist-copyright__area {
-  background: #ffeded;
+  background: #fbfbfb;
   border-top: 1px solid rgba(32, 44, 88, 0.062745098);
 }
 .dentist-copyright__text {
@@ -23965,7 +23965,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   color: #202c58;
 }
 .dentist-footer__area {
-  background: #ffeded;
+  background: #fbfbfb;
 }
 .dentist-footer__sec-title-wrapper .sec-title-9 {
   color: #202c58;
@@ -24577,7 +24577,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   filter: drop-shadow(-25px 25px 0px #6a6bbf);
 }
 .light .dt-inap__appointment .doctor__appointment-thumbs {
-  filter: drop-shadow(25px 25px 0px #ffeded);
+  filter: drop-shadow(25px 25px 0px #fbfbfb);
 }
 @media only screen and (max-width: 1919px) {
   .dt-inap__appointment .doctor__appointment-thumbs {
@@ -24674,7 +24674,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   line-height: 16px;
 }
 .dt-inap__appointment .submit {
-  background-color: #ffeded;
+  background-color: #fbfbfb;
   color: #202c58;
 }
 .light .dt-inap__appointment .submit {
