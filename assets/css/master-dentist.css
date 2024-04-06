@@ -261,6 +261,7 @@
   .pb-90 {
     padding-bottom: 70px;
   }
+  
 }
 @media only screen and (max-width: 991px) {
   .pb-90 {
@@ -3656,7 +3657,7 @@ img {
     padding-left: 0;
   }
   br {
-    display: none;
+    
   }
 }
 main {
@@ -11084,6 +11085,7 @@ section {
 @media only screen and (max-width: 767px) {
   .sec-title-9 {
     font-size: 32px;
+    text-align: center;
   }
 }
 .sec-title-10 {
@@ -22932,8 +22934,23 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   background: #d2eaf1;
   position: relative;
 }
+
 .dentist-hero__content-wrapper {
   position: relative;
+}
+@media only screen and (max-width: 768px){
+  .dentist-hero__content-wrapper{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+  }
+  .dentist-hero__text p{
+    text-align: center;
+  }
+  .has-top-line:before{
+    left: 41%;
+  }
 }
 .dentist-hero__title {
   font-size: 100px;
@@ -22973,7 +22990,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   .dentist-hero__title {
     font-size: 44px;
     margin-bottom: 80px;
-    margin-top: 40px;
+    margin-top: 80px;
   }
 }
 @media (max-width: 575px) {
@@ -23007,6 +23024,10 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   .dentist-hero__right-content {
     position: static;
     margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
   }
 }
 .dentist-hero__right-content p {
@@ -23066,17 +23087,17 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 }
 @media only screen and (max-width: 1919px) {
   .dentist-hero__thumb {
-    width: 420px;
+    width: 380px;
   }
 }
 @media only screen and (max-width: 1399px) {
   .dentist-hero__thumb {
-    width: 380px;
+    width: 340px;
   }
 }
 @media only screen and (max-width: 991px) {
   .dentist-hero__thumb {
-    width: 320px;
+    width: 260px;
   }
 }
 .dentist-hero__thumb .bg {
@@ -23173,6 +23194,8 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   font-weight: 400;
   color: #202c58;
 }
+
+
 .dentist-service__sec-subtitle {
   font-size: 14px;
   font-weight: 600;
@@ -23203,19 +23226,24 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   }
 }
 .dentist-service__sec-title-wrapper {
-  max-width: 440px;
+  max-width: 524px;
   margin-inline-start: auto;
   margin-top: -23px;
 }
 @media only screen and (max-width: 991px) {
   .dentist-service__sec-title-wrapper {
     max-width: 330px;
+   
   }
 }
 @media only screen and (max-width: 767px) {
   .dentist-service__sec-title-wrapper {
     margin-top: 25px;
     margin-inline-start: 0;
+  }
+  .dentist-service__sec-title-wrapper h2 {
+    
+    text-align: center;
   }
 }
 .dentist-service__content-wrapper {
@@ -23229,10 +23257,15 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 @media only screen and (max-width: 991px) {
   .dentist-service__content-wrapper {
     margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 }
 .dentist-service__content-wrapper .dentist-service__btn {
-  max-width: 440px;
+  max-width: 518px;
   margin-inline-start: auto;
   display: block;
   margin-top: 45px;
@@ -23245,6 +23278,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 @media only screen and (max-width: 767px) {
   .dentist-service__content-wrapper .dentist-service__btn {
     margin-inline-start: 0;
+    margin-bottom: 2rem;
   }
 }
 .light
@@ -23295,12 +23329,28 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 }
 .dentist-service__content {
   width: 300px;
-  margin-inline-start: 80px;
+  margin: 60px 0;
+  
 }
+#smooth-content > div > main > section.dentist-choose__area.pb-50.pt-50 > div > div:nth-child(2) > div:nth-child(2){
+  margin-left: 60px;
+  margin-top: 0;
+}
+#smooth-content > div > main > section.dentist-choose__area.pb-50.pt-50 > div > div:nth-child(2) > div:nth-child(1){
+  margin-top: 0;
+}
+
 @media only screen and (max-width: 991px) {
   .dentist-service__content {
     width: 100%;
     margin-inline-start: 0;
+  }
+  #smooth-content > div > main > section.dentist-choose__area.pb-50.pt-50 > div > div:nth-child(2) > div:nth-child(2){
+    margin-left: 60px;
+    margin-top: 60px;
+  }
+  #smooth-content > div > main > section.dentist-choose__area.pb-50.pt-50 > div > div:nth-child(2) > div:nth-child(1){
+    margin-top: 60px;
   }
 }
 .dentist-service__title {
@@ -24628,7 +24678,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   color: #202c58;
 }
 .light .dt-inap__appointment .submit {
-  background-color: #aedbe9;
+  background-color: #417383;
 }
 .dt-inbd-details .lawyer__blog-related-item {
   border-bottom: 1px dashed #d0d0d0;
