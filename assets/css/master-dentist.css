@@ -18224,7 +18224,7 @@ section {
   line-height: 1.5;
   color: var(--white);
   padding-bottom: 20px;
-  text-transform: capitalize;
+  
 }
 .offcanvas__gallery {
   position: relative;

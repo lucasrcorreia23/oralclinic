@@ -408,6 +408,12 @@
       $('.resume-header').css('inset-inline-end', '-110px');
     });
   }
+  if (device_width < 1200) {
+    $('.menu1').on('click', function (e) {
+      e.stopPropagation();
+      $('.resume-header').css('inset-inline-end', '-110px');
+    });
+  }
   // video 7
 
   var video_player = document.querySelector(".video7_layer")
@@ -1553,24 +1559,88 @@
     });
   });
   /////////////////////////////////////////////////////////
+  document.addEventListener('DOMContentLoaded', function() {
+    // Função para fechar o offcanvas
+    function closeOffcanvas() {
+        // Encontra o offcanvas que está atualmente visível (com a classe 'show')
+        var offcanvasVisible = document.querySelector('.offcanvas.show');
+        if (offcanvasVisible) {
+            // Remove a classe 'show' para esconder o offcanvas
+            offcanvasVisible.classList.remove('show');
+        }
+        
+        // Encontra e esconde o backdrop do offcanvas
+        var offcanvasBackdrop = document.querySelector('.offcanvas-backdrop.fade.show');
+        if (offcanvasBackdrop) {
+            offcanvasBackdrop.classList.remove('show'); // Remove a classe 'show' para esconder o backdrop
+        }
+    }
 
+    // Seleciona todos os itens do menu e adiciona o evento de clique para fechar o offcanvas
+    var menuItems = document.querySelectorAll('.menu-items'); // Corrigido para usar '.menu-items' conforme seu HTML
+    menuItems.forEach(function(item) {
+        item.addEventListener('click', function(event) {
+            event.preventDefault(); // Impede a navegação padrão
+            closeOffcanvas(); // Chama a função para fechar o offcanvas
+        });
+    });
+});
 
   /////////////////////////////////////////////////////////
   // Offcanvas Menu Off/On
-  var open_offcanvas = document.getElementById("open_offcanvas");
-  var close_offcanvas = document.getElementById("close_offcanvas");
 
-  if (open_offcanvas && close_offcanvas) {
-    open_offcanvas.addEventListener('click', function () {
-      document.querySelector('.offcanvas-area').style.opacity = '1';
-      document.querySelector('.offcanvas-area').style.visibility = 'visible';
+ var menu_items = document.querySelectorAll('.menu-item'); // Seleciona todos os itens do menu
+
+    // Função para fechar o offcanvas
+    function closeOffcanvas() {
+        // Encontra o offcanvas e remove a classe 'show'
+        var offcanvas = document.querySelector('.offcanvas.show');
+        if (offcanvas) {
+            offcanvas.classList.remove('show'); // Assume que remover 'show' o move para fora da tela
+        }
+        
+        // Ajusta a opacidade e visibilidade do fundo do offcanvas
+        var offcanvasBackground = document.querySelector('.offcanvas__area-2');
+        if (offcanvasBackground) {
+            offcanvasBackground.style.opacity = '0';
+            offcanvasBackground.style.visibility = 'hidden';
+        }
+    }
+
+    // Adiciona evento de clique para cada item do menu
+    menu_items.forEach(function(item) {
+      item.addEventListener('click', function(event) {
+        event.preventDefault(); // Impede a navegação padrão, se necessário
+        closeOffcanvas();
+      });
     });
 
+  var open_offcanvas = document.getElementById("open_offcanvas");
+  var close_offcanvas = document.getElementById("close_offcanvas");
+  var menu_items = document.querySelectorAll('.menu-item'); // Seleciona todos os itens do menu
+
+  if (open_offcanvas) {
+    open_offcanvas.addEventListener('click', function () {
+      // Supondo que a lógica para abrir o offcanvas esteja correta
+    });
+  }
+
+  if (close_offcanvas) {
     close_offcanvas.addEventListener('click', function () {
       document.querySelector('.offcanvas-area').style.opacity = '0';
       document.querySelector('.offcanvas-area').style.visibility = 'hidden';
     });
   }
+
+  // Adiciona evento de clique para cada item do menu
+  menu_items.forEach(function(item) {
+    item.addEventListener('click', function(event) {
+      event.preventDefault(); // Impede a navegação
+      document.querySelector('.offcanvas-area').style.opacity = '0';
+      document.querySelector('.offcanvas-area').style.visibility = 'hidden';
+    });
+  });
+
   /////////////////////////////////////////////////////////
 
 
