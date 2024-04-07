@@ -23,7 +23,7 @@
   --black-13: #3c3636;
   --black-14: #39393d;
   --black-15: #141415;
-  --black-16: #202c58;
+  --black-16: #121212;
   --white: #fff;
   --white-2: #f9f9f9;
   --white-3: #f3f3f3;
@@ -6788,7 +6788,7 @@ h6 {
   content: "";
   width: 50px;
   height: 2px;
-  background: #202c58;
+  background: #121212;
   top: 0;
   inset-inline-start: 0;
 }
@@ -7031,13 +7031,13 @@ h6 {
   color: var(--white);
 }
 .light .dt-incs-pagination li a.active {
-  color: #202c58;
+  color: #121212;
 }
 .dt-incs-pagination li a:hover {
   color: var(--white);
 }
 .light .dt-incs-pagination li a:hover {
-  color: #202c58;
+  color: #121212;
 }
 .dt-incs-pagination li a i {
   padding-inline-start: 8px;
@@ -8881,7 +8881,7 @@ body.light {
   color: var(--black-2);
 }
 .color-purple-light {
-  color: #202c58 !important;
+  color: #121212 !important;
 }
 .wc-bg-dark {
   background-color: #1c1d20 !important;
@@ -10659,7 +10659,7 @@ section {
   height: 0%;
   left: 50%;
   top: 50%;
-  background-color: var(--primary);
+  background-color: #777777;
   transform: translateX(-50%) translateY(-50%) rotate(90deg);
   transition: all 0.75s;
   opacity: 0.5;
@@ -14150,7 +14150,7 @@ section {
   color: var(--white);
 }
 .light .wcf__testimonial.style-8 .swiper-pagination-current {
-  color: #202c58;
+  color: #121212;
 }
 .wcf__testimonial.style-8 .ts-navigation {
   position: absolute;
@@ -16100,7 +16100,7 @@ section {
 .wcf__posts.style-2 .wcf-post {
   display: grid;
   grid-template-columns: 48% 1fr;
-  background-color: #202c58;
+  background-color: #121212;
 }
 .light .wcf__posts.style-2 .wcf-post {
   background-color: #f7f7fa;
@@ -16164,7 +16164,7 @@ section {
 .light .wcf__posts.style-2 .wcf-cats::before,
 .light .wcf__posts.style-2 .wcf-tags::before,
 .light .wcf__posts.style-2 .wcf-meta::before {
-  background-color: #202c58;
+  background-color: #121212;
 }
 .wcf__posts.style-2 .wcf-cats a,
 .wcf__posts.style-2 .wcf-cats span,
@@ -16216,7 +16216,7 @@ section {
   color: var(--gray, #666);
 }
 .wcf__posts.style-2 .link {
-  color: #202c58;
+  color: #121212;
   font-weight: 600;
   padding: 12px 30px;
   text-transform: uppercase;
@@ -16227,10 +16227,10 @@ section {
 }
 .light .wcf__posts.style-2 .link {
   color: var(--white, #fff);
-  background-color: #202c58;
+  background-color: #121212;
 }
 .wcf__posts.style-2 .link path {
-  fill: #202c58;
+  fill: #121212;
 }
 .wcf__posts.style-2 .link:hover {
   color: var(--white, #fff);
@@ -16633,7 +16633,7 @@ section {
 .light .wcf__posts.style-5 .wcf-cats::before,
 .light .wcf__posts.style-5 .wcf-tags::before,
 .light .wcf__posts.style-5 .wcf-meta::before {
-  background-color: #202c58;
+  background-color: #121212;
 }
 .wcf__posts.style-5 .wcf-cats a,
 .wcf__posts.style-5 .wcf-cats span,
@@ -22755,7 +22755,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   }
 }
 .body-dentist {
-  background-color: #202c58;
+  background-color: #121212;
   color: #a6acc2;
 }
 .body-dentist h1 .anim-reveal-line,
@@ -22777,7 +22777,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 .light .body-dentist h4,
 .light .body-dentist h5,
 .light .body-dentist h6 {
-  color: #202c58;
+  color: #121212;
 }
 .body-dentist p {
   color: #a6acc2;
@@ -22813,13 +22813,13 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   position: relative;
 }
 .dentist-header__meta.content-dark .call-us a span {
-  color: #202c58;
+  color: #121212;
 }
 .dentist-header__meta.content-dark .call-us a strong {
-  color: #202c58;
+  color: #121212;
 }
 .dentist-header__meta.content-dark .call-us a i {
-  color: #202c58;
+  color: #121212;
 }
 .dentist-header__meta .call-us {
   text-align: end;
@@ -22845,7 +22845,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   color: #a6acc2;
 }
 .light .dentist-header__meta .call-us a span {
-  color: #202c58;
+  color: #777777;
 }
 .dentist-header__meta .call-us a:hover span {
   color: var(--primary);
@@ -22858,7 +22858,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   color: #a6acc2;
 }
 .light .dentist-header__meta .call-us a strong {
-  color: #202c58;
+  color: #121212;
 }
 .dentist-header__meta .call-us a i {
   font-size: 24px;
@@ -22866,7 +22866,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   color: #a6acc2;
 }
 .light .dentist-header__meta .call-us a i {
-  color: #202c58;
+  color: #121212;
 }
 .dentist-header__nav {
   position: absolute;
@@ -22886,10 +22886,10 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   padding: 40px 20px;
 }
 .light .dentist-header__nav .main-menu > ul > li > a {
-  color: #202c58;
+  color: #121212;
 }
 .dentist-header__nav .main-menu.menu-dark > ul > li > a {
-  color: #202c58;
+  color: #121212;
 }
 .dentist-header__others {
   display: flex;
@@ -22922,16 +22922,16 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 .dentist-header__navicon .menu-icon span,
 .dentist-header__navicon .menu-icon-2 span {
   width: 12px;
-  background-color: #202c58;
+  background-color: #121212;
 }
 .dentist-header__navicon .menu-icon::before,
 .dentist-header__navicon .menu-icon-2::before,
 .dentist-header__navicon .menu-icon::after,
 .dentist-header__navicon .menu-icon-2::after {
-  background: #202c58;
+  background: #121212;
 }
 .dentist-hero__area {
-  background: #d2eaf1;
+  background: #fbfbfb;
   position: relative;
 }
 
@@ -22956,7 +22956,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   font-size: 100px;
   font-weight: 700;
   line-height: 1.1;
-  color: #202c58;
+  color: #121212;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 215px;
@@ -23001,7 +23001,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 .dentist-hero__text p {
   font-size: 20px;
   font-weight: 400;
-  color: #202c58;
+  color: #121212;
   line-height: 1.4;
   max-width: 330px;
 }
@@ -23011,8 +23011,8 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 .dentist-hero__btn .wc-btn-primary {
   font-size: 14px;
   font-weight: 600;
-  color: #202c58;
-  background: #fbfbfb;
+  color: #ffffff;
+  background: #121212;
 }
 .dentist-hero__right-content {
   width: 330px;
@@ -23034,7 +23034,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.1;
-  color: #202c58;
+  color: #121212;
   max-width: 152px;
 }
 .dentist-hero__thumb-wrapper {
@@ -23192,7 +23192,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 .dentist-degree-years p {
   font-size: 16px;
   font-weight: 400;
-  color: #202c58;
+  color: #121212;
 }
 
 
@@ -23285,13 +23285,13 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   .dentist-service__content-wrapper
   .dentist-service__btn
   .wc-btn-underline {
-  color: #202c58;
+  color: #121212;
 }
 .light
   .dentist-service__content-wrapper
   .dentist-service__btn
   .wc-btn-underline:after {
-  background: #202c58;
+  background: #121212;
 }
 .dentist-service__thumb-wrapper {
   display: flex;
@@ -23480,11 +23480,11 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   }
 }
 .dentist-about__sec-title-wrapper .sec-title-9 {
-  color: #202c58;
+  color: #121212;
 }
 .dentist-about__text p {
   font-size: 18px;
-  color: #202c58;
+  color: #121212;
 }
 .dentist-about__btn {
   margin-top: 45px;
@@ -23492,13 +23492,13 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 }
 .dentist-about__content p {
   font-size: 18px;
-  color: #202c58;
+  color: #121212;
 }
 .dentist-about__content .wc-btn-underline {
-  color: #202c58;
+  color: #121212;
 }
 .dentist-about__content .wc-btn-underline:after {
-  background: #202c58;
+  background: #121212;
 }
 .dentist-about__thumb {
   max-width: 770px;
@@ -23516,7 +23516,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   padding-inline-start: 10px;
   margin-inline-start: 30px;
   line-height: 1.4;
-  color: #202c58;
+  color: #121212;
 }
 .dentist-about__curved-line {
   position: absolute;
@@ -23528,7 +23528,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   font-size: 30px;
   font-weight: 600;
   line-height: 1.16;
-  color: #202c58;
+  color: #121212;
   margin-bottom: 55px;
 }
 .dentist-counter__item {
@@ -23538,20 +23538,20 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 .dentist-counter__number {
   font-size: 60px;
   font-weight: 200;
-  color: #202c58;
+  color: #121212;
   line-height: 0.9;
 }
 .dentist-counter__text p {
   font-size: 18px;
   font-weight: 400;
-  color: #202c58;
+  color: #121212;
 }
 .dentist-counter__box {
   max-width: 410px;
 }
 .dentist-counter__box li:not(:last-child) {
   padding-bottom: 35px;
-  border-bottom: 1px solid #202c58;
+  border-bottom: 1px solid #121212;
   margin-bottom: 35px;
 }
 .dentist-choose__area-inner {
@@ -23578,7 +23578,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   align-items: center;
 }
 .light .dentist-choose__list li {
-  color: #202c58;
+  color: #121212;
 }
 .dentist-choose__list li:before {
   content: url(../imgs/dentist/check-mark.png);
@@ -23617,17 +23617,17 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   font-size: 14px;
   font-weight: 600;
   background: #aedbe9;
-  color: #202c58;
+  color: #121212;
 }
 .dentist-compare__area {
-  background: #e4f2f6;
+  background: #fbfbfb;
   position: relative;
   z-index: 1;
 }
 .dentist-compare__area-bg {
   width: 100%;
   height: 300px;
-  background: #202c58;
+  background: #121212;
   position: absolute;
   inset-inline-start: 0;
   bottom: -1px;
@@ -23657,13 +23657,13 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 }
 .dentist-compare__text p {
   font-size: 18px;
-  color: #202c58;
+  color: #121212;
 }
 .dentist-compare__sec-title-wrapper {
   margin-bottom: 25px;
 }
 .dentist-compare__sec-title-wrapper .sec-title-9 {
-  color: #202c58;
+  color: #121212;
 }
 .dentist-compare__img-wrapper {
   position: relative;
@@ -23694,7 +23694,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   width: 100%;
 }
 .dentist-video__btn .circle-text {
-  background: #202c58;
+  background: #121212;
 }
 .dentist-testimonial__area-inner {
   display: grid;
@@ -23742,7 +23742,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   text-align: start;
 }
 .light .dentist-testimonial__slider .swiper-pagination {
-  color: #202c58;
+  color: #121212;
 }
 @media only screen and (max-width: 1199px) {
   .dentist-testimonial__slider .swiper-pagination {
@@ -23764,7 +23764,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   margin-inline-end: 8px;
 }
 .light .dentist-testimonial__slider .mid-line {
-  background: #202c58;
+  background: #121212;
 }
 .dentist-testimonial__quote-icon {
   min-width: 40px;
@@ -23778,7 +23778,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   color: var(--white);
 }
 .light .dentist-testimonial__text p {
-  color: #202c58;
+  color: #121212;
 }
 @media only screen and (max-width: 1199px) {
   .dentist-testimonial__text p {
@@ -23909,7 +23909,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   line-height: 1;
 }
 .light .dentist-blog__meta-items a {
-  color: #202c58;
+  color: #121212;
 }
 .dentist-blog__meta-items a.has-top-line {
   padding-top: 9px;
@@ -23920,7 +23920,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   background: var(--white);
 }
 .light .dentist-blog__meta-items a.has-top-line:before {
-  background: #202c58;
+  background: #121212;
 }
 .dentist-blog__item {
   display: grid;
@@ -23936,14 +23936,14 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   padding: 0 30px;
   font-size: 14px;
   background: var(--white);
-  color: #202c58;
+  color: #121212;
   border-color: var(--white);
   text-transform: uppercase;
   font-weight: 600;
 }
 .light .dentist-blog__item .wc-btn-primary {
   color: var(--white);
-  background: #202c58;
+  background: #121212;
 }
 .dentist-blog__item .wc-btn-primary:after {
   background-color: #aedbe9;
@@ -23958,17 +23958,17 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 .dentist-copyright__text p {
   font-size: 18px;
   font-weight: 400;
-  color: #202c58;
+  color: #121212;
   text-align: center;
 }
 .dentist-copyright__text p a {
-  color: #202c58;
+  color: #121212;
 }
 .dentist-footer__area {
   background: #fbfbfb;
 }
 .dentist-footer__sec-title-wrapper .sec-title-9 {
-  color: #202c58;
+  color: #121212;
 }
 .dentist-footer__header {
   display: grid;
@@ -24014,12 +24014,12 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 .dentist-footer__widget-title {
   font-size: 24px;
   font-weight: 600;
-  color: #202c58;
+  color: #121212;
   margin-bottom: 30px;
 }
 .dentist-footer__menu li {
   font-size: 16px;
-  color: #202c58;
+  color: #121212;
 }
 .dentist-footer__menu li:not(:last-child) {
   margin-bottom: 2px;
@@ -24047,7 +24047,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 }
 .dentist-social-media a {
   font-size: 22px;
-  color: #202c58;
+  color: #121212;
 }
 .dentist-social-media a:hover {
   color: #aedbe9;
@@ -24072,7 +24072,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   text-align: start;
 }
 .light .dentist__accordion .accordion-button {
-  color: #202c58;
+  color: #121212;
 }
 @media only screen and (max-width: 1199px) {
   .dentist__accordion .accordion-button {
@@ -24293,7 +24293,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   background: #aedbe9;
 }
 .dt-inab__testimonial-area .dentist-testimonial__slider .swiper-pagination {
-  color: #202c58;
+  color: #121212;
 }
 .dt-invdo__testimonial .dentist-testimonial__wrapper {
   gap: 25px;
@@ -24309,7 +24309,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   color: #a6acc2;
 }
 .light .dt-invdo__testimonial .dentist-testimonial__text p {
-  color: #202c58;
+  color: #121212;
 }
 .dt-invdo__testimonial .dentist-testimonial__clients-rating {
   display: flex;
@@ -24675,10 +24675,10 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 }
 .dt-inap__appointment .submit {
   background-color: #fbfbfb;
-  color: #202c58;
+  color: #121212;
 }
 .light .dt-inap__appointment .submit {
-  background-color: #417383;
+  background-color: #121212;
 }
 .dt-inbd-details .lawyer__blog-related-item {
   border-bottom: 1px dashed #d0d0d0;
@@ -24798,7 +24798,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   border-color: rgba(0, 0, 0, 0);
 }
 .light .dt-nav-button:hover {
-  background-color: #202c58;
+  background-color: #121212;
 }
 .dt-nav-button:hover img {
   filter: none;
@@ -24921,7 +24921,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 }
 .light .blog__details-dentist .list-tags a {
   background-color: #f9f9f9;
-  color: #202c58;
+  color: #121212;
 }
 .blog__details-dentist .list-tags {
   gap: 8px;
@@ -24940,7 +24940,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   font-size: 14px;
 }
 .light .blog__details-dentist .cf_details__share p {
-  color: #202c58;
+  color: #121212;
 }
 .blog__details-dentist .cf_details__footer {
   display: flex;
@@ -24969,12 +24969,12 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 }
 .blog__details-dentist .wc-btn-primary {
   background-color: #aedbe9;
-  color: #202c58;
+  color: #121212;
   text-transform: uppercase;
   font-weight: 500;
 }
 .light .blog__details-dentist .wc-btn-primary {
-  background-color: #202c58;
+  background-color: #121212;
   color: var(--white);
 }
 .details__sidebar-dentist .cf-sidebar__widget {
@@ -25000,7 +25000,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 }
 .details__sidebar-dentist .wc-btn-primary {
   background-color: #aedbe9;
-  color: #202c58;
+  color: #121212;
 }
 .details__sidebar-dentist .cf-sidebar__w-title {
   background-color: #374471;
