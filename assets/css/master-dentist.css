@@ -6,8 +6,8 @@
 @import "https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Macondo&display=swap";
 :root {
-  --primary: #e8bf96;
-  --secondary: #2c2c2c;
+  --primary: #777777;
+  --secondary: #535353;
   --black: #000;
   --black-2: #1c1d20;
   --black-3: #212125;
@@ -3612,7 +3612,9 @@ a {
   color: inherit;
 }
 a:hover {
-  color: inherit;
+  color: #fbfbfb;
+  font-weight: bold;
+  transform: scale(1.03);
 }
 button {
   background-color: rgba(0, 0, 0, 0);
@@ -24577,7 +24579,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   filter: drop-shadow(-25px 25px 0px #6a6bbf);
 }
 .light .dt-inap__appointment .doctor__appointment-thumbs {
-  filter: drop-shadow(25px 25px 0px #fbfbfb);
+  filter: drop-shadow(25px 25px 0px #121212);
 }
 @media only screen and (max-width: 1919px) {
   .dt-inap__appointment .doctor__appointment-thumbs {
