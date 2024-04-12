@@ -23775,7 +23775,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   margin-bottom: 50px;
 }
 .dentist-testimonial__text p {
-  font-size: 30px;
+  font-size: 16px;
   line-height: 1.1;
   color: var(--white);
 }
@@ -23784,12 +23784,12 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 }
 @media only screen and (max-width: 1199px) {
   .dentist-testimonial__text p {
-    font-size: 24px;
+    font-size: 14px;
   }
 }
 @media only screen and (max-width: 991px) {
   .dentist-testimonial__text p {
-    font-size: 22px;
+    font-size: 14px;
   }
 }
 .dentist-testimonial__client-name {
